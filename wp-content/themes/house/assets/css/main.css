@@ -204,7 +204,7 @@ body {
 }
 .main__text {
   color: #1e1e1e;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 400;
 }
 .main__img {
@@ -254,17 +254,30 @@ body {
   padding: 25px 30px;
 }
 .gallery {
+  padding-top: 120px;
   text-align: center;
 }
-.gallery__inner {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+.gallery__title{
+  color: #d07a2d;
+  font-size: 41px;
+  font-weight: 700;
+  margin-bottom: 40px;
 }
-.gallery__inner img {
-  display: block;
+.gallery__text{
+  color: #1e1e1e;
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 60px;
+}
+.gallery__inner .gallery{
+  padding-top: 0;
+}
+.gallery__inner #gallery-1 .gallery-item{
+  margin-top: 0;
+}
+.gallery__inner #gallery-1 .gallery-item img{
+ border: none;
+ display: block;
 }
 .footer {
   padding-bottom: 120px;
